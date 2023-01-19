@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    padding-left: 75px;
+}
+nav{
+    position: absolute;
+    height: 100vh;
+    display: flex;   /*le digo que sea flexible*/
+    flex-direction: column;
+    /* le digo que el contenido este en formato columna */
+    width: 75px;
+    background-color: #222;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    transition: width 0.3s ease-in-out;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
